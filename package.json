@@ -1,0 +1,37 @@
+{
+  "name": "posts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "posts": "api.js"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "glob-parent": "^5.1.2",
+    "is-binary-path": "^2.1.0",
+    "is-ci": "^2.0.0",
+    "is-extglob": "^2.1.1",
+    "is-fullwidth-code-point": "^2.0.0",
+    "is-glob": "^4.0.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomaspizarro15/post-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomaspizarro15/post-service/issues"
+  },
+  "homepage": "https://github.com/tomaspizarro15/post-service#readme"
+}
